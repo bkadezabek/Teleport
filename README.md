@@ -12,7 +12,7 @@ To use tp, place the script in your system's PATH and ensure it is executable:
 chmod +x teleport.py
 sudo mv teleport.py /usr/local/bin/tp
 
-NYI: Brew support and other package managers... Will be implemented soon :):w
+NYI: Brew support and other package managers... Will be implemented soon :)
 
 
 ## Usage:
