@@ -23,7 +23,7 @@ tp -a angular-project
 
 **If you want to specify a path with the alias but are not in the directory you want to add:**
 
-tp -a angular-project -p ~/users/user/web-projects/angular-project
+tp -a angular-project -p /users/user/web-projects/angular-project
 Ensure the paths provided are absolute if using -p argument!
 
 ### Teleport to the directory associated with 'projects'
@@ -42,7 +42,7 @@ tp -l
 tp -l -v
 tp -lv
 **Output:**
-Alias: angular-project -> /home/user/angular-project
+Alias: angular-project -> /users/user/web-projects/angular-project
 
 ## Storage
 
