@@ -4,7 +4,6 @@ tp is a Python-based utility that lets you create and manage aliases for directo
 
 Teleport (navigate) to directories using their alias. You can Add and Delete aliases and also List all stored aliases.
 
-
 ## Installation
 
 To use tp, place the script in your system's PATH and ensure it is executable:
@@ -13,7 +12,6 @@ chmod +x teleport.py
 sudo mv teleport.py /usr/local/bin/tp
 
 NYI: Brew support and other package managers... Will be implemented soon :)
-
 
 ## Usage:
 
@@ -24,7 +22,8 @@ tp -a angular-project
 **If you want to specify a path with the alias but are not in the directory you want to add:**
 
 tp -a angular-project -p /users/user/web-projects/angular-project
-Ensure the paths provided are absolute if using -p argument!
+
+NOTE: Ensure the paths provided are absolute if using -p argument!
 
 ### Teleport to the directory associated with 'projects'
 
@@ -40,8 +39,11 @@ tp -l
 
 **Verbose Listing:**
 tp -l -v
+
 tp -lv
+
 **Output:**
+
 Alias: angular-project -> /users/user/web-projects/angular-project
 
 ## Storage
@@ -51,5 +53,6 @@ Aliases are stored in: /usr/local/share/teleport/aliases.json (if writable by th
 cd ~/.teleport/aliases.json (fallback for non-root users)
 
 ### Notes:
+
 Use sudo for commands if required to write to /usr/local/share/teleport/.
 
